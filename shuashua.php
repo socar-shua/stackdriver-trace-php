@@ -20,7 +20,10 @@ $exporter = new StackdriverExporter([
 if (getenv('USE_NULL_EXPORTER')) {
 	$exporter = new NullExporter();
 }
-echo "shua";
+echo "shuashua";
 # [START trace_setup_php_tracer_start]
 Tracer::start($exporter);
 # [END trace_setup_php_tracer_start]
+
+$string = "test"
+echo $string
